@@ -1,0 +1,429 @@
+<html>
+<head>
+<title>TestNG:  Test edge</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test edge</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 12 22:05:54 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>211 seconds (211905 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_007()'><b>TC_TripAdvisor_SignInPage_Negative_007</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest<br>Parameters: <xml-fragment r="2" spans="1:2" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" s="1" t="s">
+    <main:v>2</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>3</main:v>
+  </main:c>
+</xml-fragment><br/>
+<a href="#Output-1864272761" onClick='toggleBox("Output-1864272761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1864272761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1864272761">
+<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_08_53_IST_2023_1683909533999.png>TESTRESULT</a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;regErrors&apos;]/ul/li&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+	at com.tripadvisor.webapp.pages.SignInPage.getTheErrorMessageOnInvalidCredetials(SignInPage.java:102)
+	at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_007(SignInPageTest.java:140)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;regErrors&apos;]/ul/li&quot;}
+  (Session info: MicrosoftEdge=113.0.1774.35)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6JUGJ4I&apos;, ip: &apos;192.168.1.52&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aa7767889927af1d05c30dcda8e1333f, findElement {using=xpath, value=//*[@id=&apos;regErrors&apos;]/ul/li}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:58650}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\Sachin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58650/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa7767889927af1d05c30dcda8e1333f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1864272761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1864272761'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;regErrors&apos;]/ul/li&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+	at com.tripadvisor.webapp.pages.SignInPage.getTheErrorMessageOnInvalidCredetials(SignInPage.java:102)
+	at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_007(SignInPageTest.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;regErrors&apos;]/ul/li&quot;}
+  (Session info: MicrosoftEdge=113.0.1774.35)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6JUGJ4I&apos;, ip: &apos;192.168.1.52&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aa7767889927af1d05c30dcda8e1333f, findElement {using=xpath, value=//*[@id=&apos;regErrors&apos;]/ul/li}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:58650}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\Sachin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58650/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa7767889927af1d05c30dcda8e1333f
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+</pre></div></td>
+<td>41</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_009()'><b>TC_TripAdvisor_SignInPage_Negative_009</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest<br/>
+<a href="#Output-281849537" onClick='toggleBox("Output-281849537", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-281849537" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-281849537">
+<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_09_25_IST_2023_1683909565832.png>TESTRESULT</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Some error in login page expected [Your password should be at least 6 characters long.] but found [Your password must be at least 10 characters. Please try again.]
+	at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_009(SignInPageTest.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace281849537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace281849537'><pre>java.lang.AssertionError: Some error in login page expected [Your password should be at least 6 characters long.] but found [Your password must be at least 10 characters. Please try again.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_009(SignInPageTest.java:178)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>11</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_003()'><b>TC_TripAdvisor_SignInPage_003</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest<br/>
+<a href="#Output-513389430" onClick='toggleBox("Output-513389430", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-513389430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-513389430">
+<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_07_12_IST_2023_1683909432662.png>TESTRESULT</a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: button[id=&apos;facebookBtn&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+	at com.tripadvisor.webapp.pages.SignInPage.textOnContinueWithFacebook(SignInPage.java:69)
+	at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_003(SignInPageTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[id=&apos;facebookBtn&apos;]&quot;}
+  (Session info: MicrosoftEdge=113.0.1774.35)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6JUGJ4I&apos;, ip: &apos;192.168.1.52&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [568add9f184108143d552b39558d8fd9, findElement {using=css selector, value=button[id=&apos;facebookBtn&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:57198}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\Sachin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57198/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 568add9f184108143d552b39558d8fd9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace513389430", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace513389430'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: button[id=&apos;facebookBtn&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+	at com.tripadvisor.webapp.pages.SignInPage.textOnContinueWithFacebook(SignInPage.java:69)
+	at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_003(SignInPageTest.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[id=&apos;facebookBtn&apos;]&quot;}
+  (Session info: MicrosoftEdge=113.0.1774.35)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6JUGJ4I&apos;, ip: &apos;192.168.1.52&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [568add9f184108143d552b39558d8fd9, findElement {using=css selector, value=button[id=&apos;facebookBtn&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:57198}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\Sachin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57198/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 568add9f184108143d552b39558d8fd9
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+</pre></div></td>
+<td>34</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.HomePageTest.TC_TripAdvisor_HomePage_003()'><b>TC_TripAdvisor_HomePage_003</b><br>Test class: com.tripadvisor.webapp.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.tripadvisor.webapp.tests.HomePageTest@7f485fda</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_008()'><b>TC_TripAdvisor_SignInPage_Negative_008</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest</td>
+<td></td>
+<td>11</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_006()'><b>TC_TripAdvisor_SignInPage_006</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest</td>
+<td></td>
+<td>8</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_007()'><b>TC_TripAdvisor_SignInPage_Negative_007</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest<br>Parameters: <xml-fragment r="1" spans="1:2" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A1" t="s">
+    <main:v>0</main:v>
+  </main:c>
+  <main:c r="B1" t="s">
+    <main:v>1</main:v>
+  </main:c>
+</xml-fragment></td>
+<td></td>
+<td>11</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.HomePageTest.TC_TripAdvisor_HomePage_001()'><b>TC_TripAdvisor_HomePage_001</b><br>Test class: com.tripadvisor.webapp.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.tripadvisor.webapp.tests.HomePageTest@7f485fda</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_002()'><b>TC_TripAdvisor_SignInPage_002</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.HomePageTest.TC_TripAdvisor_HomePage_002()'><b>TC_TripAdvisor_HomePage_002</b><br>Test class: com.tripadvisor.webapp.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.tripadvisor.webapp.tests.HomePageTest@7f485fda</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_004()'><b>TC_TripAdvisor_SignInPage_004</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest</td>
+<td></td>
+<td>7</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_005()'><b>TC_TripAdvisor_SignInPage_005</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest</td>
+<td></td>
+<td>8</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+<tr>
+<td title='com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_001()'><b>TC_TripAdvisor_SignInPage_001</b><br>Test class: com.tripadvisor.webapp.tests.SignInPageTest</td>
+<td></td>
+<td>8</td>
+<td>com.tripadvisor.webapp.tests.SignInPageTest@28261e8e</td></tr>
+</table><p>
+</body>
+</html>

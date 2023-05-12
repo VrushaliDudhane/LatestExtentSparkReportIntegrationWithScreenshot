@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="20" failed="6" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_07_11_IST_2023_1683909431847.png>TESTRESULT</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_07_12_IST_2023_1683909432662.png>TESTRESULT</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_08_50_IST_2023_1683909530361.png>TESTRESULT</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_08_53_IST_2023_1683909533999.png>TESTRESULT</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_09_23_IST_2023_1683909564271.png>TESTRESULT</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_09_25_IST_2023_1683909565832.png>TESTRESULT</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-12T22:05:54 IST" name="Suite" finished-at="2023-05-12T22:09:26 IST" duration-ms="211905">
+    <groups>
+    </groups>
+    <test started-at="2023-05-12T22:05:54 IST" name="Test chrome" finished-at="2023-05-12T22:09:25 IST" duration-ms="210291">
+      <class name="com.tripadvisor.webapp.tests.SignInPageTest">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:09 IST" name="init" finished-at="2023-05-12T22:06:12 IST" duration-ms="3165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_001()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:12 IST" name="TC_TripAdvisor_SignInPage_001" finished-at="2023-05-12T22:06:19 IST" duration-ms="7141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:19 IST" name="tearDown" finished-at="2023-05-12T22:06:20 IST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:20 IST" name="init" finished-at="2023-05-12T22:06:23 IST" duration-ms="3080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_002()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:23 IST" name="TC_TripAdvisor_SignInPage_002" finished-at="2023-05-12T22:06:30 IST" duration-ms="7219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:30 IST" name="tearDown" finished-at="2023-05-12T22:06:31 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:31 IST" name="init" finished-at="2023-05-12T22:06:35 IST" duration-ms="3423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_003()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:06:35 IST" name="TC_TripAdvisor_SignInPage_003" finished-at="2023-05-12T22:07:11 IST" duration-ms="36320" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: button[id='facebookBtn']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: button[id='facebookBtn']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+at com.tripadvisor.webapp.pages.SignInPage.textOnContinueWithFacebook(SignInPage.java:69)
+at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_003(SignInPageTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[id='facebookBtn']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-6JUGJ4I', ip: '192.168.1.52', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5451aa0c13df94dafa3e3d34e31ee31c, findElement {using=css selector, value=button[id='facebookBtn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sachin\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57169/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5451aa0c13df94dafa3e3d34e31ee31c
+at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_07_11_IST_2023_1683909431847.png>TESTRESULT</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:11 IST" name="tearDown" finished-at="2023-05-12T22:07:12 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:12 IST" name="init" finished-at="2023-05-12T22:07:15 IST" duration-ms="3028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_004()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:15 IST" name="TC_TripAdvisor_SignInPage_004" finished-at="2023-05-12T22:07:22 IST" duration-ms="7055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:22 IST" name="tearDown" finished-at="2023-05-12T22:07:23 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:23 IST" name="init" finished-at="2023-05-12T22:07:26 IST" duration-ms="2789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_005()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:26 IST" name="TC_TripAdvisor_SignInPage_005" finished-at="2023-05-12T22:07:35 IST" duration-ms="9486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_005 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:35 IST" name="tearDown" finished-at="2023-05-12T22:07:36 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:36 IST" name="init" finished-at="2023-05-12T22:07:40 IST" duration-ms="3974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_006()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:40 IST" name="TC_TripAdvisor_SignInPage_006" finished-at="2023-05-12T22:07:49 IST" duration-ms="8639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:49 IST" name="tearDown" finished-at="2023-05-12T22:07:50 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:51 IST" name="init" finished-at="2023-05-12T22:07:56 IST" duration-ms="4944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_007(org.apache.poi.ss.usermodel.Row)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:07:56 IST" name="TC_TripAdvisor_SignInPage_Negative_007" data-provider="dataProviderForSignIn" finished-at="2023-05-12T22:08:07 IST" duration-ms="11470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<xml-fragment r="1" spans="1:2" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A1" t="s">
+    <main:v>0</main:v>
+  </main:c>
+  <main:c r="B1" t="s">
+    <main:v>1</main:v>
+  </main:c>
+</xml-fragment>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:08:07 IST" name="tearDown" finished-at="2023-05-12T22:08:08 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:08:08 IST" name="init" finished-at="2023-05-12T22:08:11 IST" duration-ms="3299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_007(org.apache.poi.ss.usermodel.Row)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:08:11 IST" name="TC_TripAdvisor_SignInPage_Negative_007" data-provider="dataProviderForSignIn" finished-at="2023-05-12T22:08:50 IST" duration-ms="38158" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<xml-fragment r="2" spans="1:2" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" s="1" t="s">
+    <main:v>2</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>3</main:v>
+  </main:c>
+</xml-fragment>]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='regErrors']/ul/li' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='regErrors']/ul/li' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+at com.tripadvisor.webapp.pages.SignInPage.getTheErrorMessageOnInvalidCredetials(SignInPage.java:102)
+at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_007(SignInPageTest.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='regErrors']/ul/li"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-6JUGJ4I', ip: '192.168.1.52', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75e0eae674f106a9ea2a562485f5e948, findElement {using=xpath, value=//*[@id='regErrors']/ul/li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sachin\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58658/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75e0eae674f106a9ea2a562485f5e948
+at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_08_50_IST_2023_1683909530361.png>TESTRESULT</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:08:50 IST" name="tearDown" finished-at="2023-05-12T22:08:51 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:08:51 IST" name="init" finished-at="2023-05-12T22:08:54 IST" duration-ms="3098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_008()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:08:54 IST" name="TC_TripAdvisor_SignInPage_Negative_008" finished-at="2023-05-12T22:09:08 IST" duration-ms="14600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:09:08 IST" name="tearDown" finished-at="2023-05-12T22:09:09 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:09:09 IST" name="init" finished-at="2023-05-12T22:09:12 IST" duration-ms="3075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_009()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:09:12 IST" name="TC_TripAdvisor_SignInPage_Negative_009" finished-at="2023-05-12T22:09:23 IST" duration-ms="11031" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Some error in login page expected [Your password should be at least 6 characters long.] but found [Your password must be at least 10 characters. Please try again.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Some error in login page expected [Your password should be at least 6 characters long.] but found [Your password must be at least 10 characters. Please try again.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_009(SignInPageTest.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_09_23_IST_2023_1683909564271.png>TESTRESULT</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@6e9175d8]" started-at="2023-05-12T22:09:24 IST" name="tearDown" finished-at="2023-05-12T22:09:25 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tripadvisor.webapp.tests.SignInPageTest -->
+      <class name="com.tripadvisor.webapp.tests.HomePageTest">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:05:55 IST" name="init" finished-at="2023-05-12T22:06:00 IST" duration-ms="5790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_HomePage_001()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:00 IST" name="TC_TripAdvisor_HomePage_001" finished-at="2023-05-12T22:06:00 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_HomePage_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:00 IST" name="tearDown" finished-at="2023-05-12T22:06:01 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:01 IST" name="init" finished-at="2023-05-12T22:06:04 IST" duration-ms="2752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_HomePage_002()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:04 IST" name="TC_TripAdvisor_HomePage_002" finished-at="2023-05-12T22:06:04 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_HomePage_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:04 IST" name="tearDown" finished-at="2023-05-12T22:06:05 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:05 IST" name="init" finished-at="2023-05-12T22:06:08 IST" duration-ms="3340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_HomePage_003()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:08 IST" name="TC_TripAdvisor_HomePage_003" finished-at="2023-05-12T22:06:08 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_HomePage_003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@5a45133e]" started-at="2023-05-12T22:06:08 IST" name="tearDown" finished-at="2023-05-12T22:06:09 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tripadvisor.webapp.tests.HomePageTest -->
+    </test> <!-- Test chrome -->
+    <test started-at="2023-05-12T22:05:54 IST" name="Test edge" finished-at="2023-05-12T22:09:26 IST" duration-ms="211905">
+      <class name="com.tripadvisor.webapp.tests.SignInPageTest">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:10 IST" name="init" finished-at="2023-05-12T22:06:13 IST" duration-ms="3055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_001()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:13 IST" name="TC_TripAdvisor_SignInPage_001" finished-at="2023-05-12T22:06:22 IST" duration-ms="8639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:22 IST" name="tearDown" finished-at="2023-05-12T22:06:23 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:23 IST" name="init" finished-at="2023-05-12T22:06:26 IST" duration-ms="3127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_002()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:26 IST" name="TC_TripAdvisor_SignInPage_002" finished-at="2023-05-12T22:06:33 IST" duration-ms="6700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:33 IST" name="tearDown" finished-at="2023-05-12T22:06:34 IST" duration-ms="1831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:34 IST" name="init" finished-at="2023-05-12T22:06:37 IST" duration-ms="2756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_003()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:06:37 IST" name="TC_TripAdvisor_SignInPage_003" finished-at="2023-05-12T22:07:12 IST" duration-ms="34849" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: button[id='facebookBtn']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: button[id='facebookBtn']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+at com.tripadvisor.webapp.pages.SignInPage.textOnContinueWithFacebook(SignInPage.java:69)
+at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_003(SignInPageTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[id='facebookBtn']"}
+  (Session info: MicrosoftEdge=113.0.1774.35)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-6JUGJ4I', ip: '192.168.1.52', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [568add9f184108143d552b39558d8fd9, findElement {using=css selector, value=button[id='facebookBtn']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:57198}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\Sachin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57198/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 568add9f184108143d552b39558d8fd9
+at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_07_12_IST_2023_1683909432662.png>TESTRESULT</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:12 IST" name="tearDown" finished-at="2023-05-12T22:07:13 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:13 IST" name="init" finished-at="2023-05-12T22:07:16 IST" duration-ms="3399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_004()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:16 IST" name="TC_TripAdvisor_SignInPage_004" finished-at="2023-05-12T22:07:24 IST" duration-ms="7141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:24 IST" name="tearDown" finished-at="2023-05-12T22:07:24 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:24 IST" name="init" finished-at="2023-05-12T22:07:27 IST" duration-ms="2761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_005()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:27 IST" name="TC_TripAdvisor_SignInPage_005" finished-at="2023-05-12T22:07:36 IST" duration-ms="8731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_005 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:36 IST" name="tearDown" finished-at="2023-05-12T22:07:37 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:37 IST" name="init" finished-at="2023-05-12T22:07:41 IST" duration-ms="4486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_006()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:41 IST" name="TC_TripAdvisor_SignInPage_006" finished-at="2023-05-12T22:07:50 IST" duration-ms="8493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:50 IST" name="tearDown" finished-at="2023-05-12T22:07:51 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:51 IST" name="init" finished-at="2023-05-12T22:07:56 IST" duration-ms="4729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_007(org.apache.poi.ss.usermodel.Row)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:07:56 IST" name="TC_TripAdvisor_SignInPage_Negative_007" data-provider="dataProviderForSignIn" finished-at="2023-05-12T22:08:07 IST" duration-ms="11242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<xml-fragment r="1" spans="1:2" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A1" t="s">
+    <main:v>0</main:v>
+  </main:c>
+  <main:c r="B1" t="s">
+    <main:v>1</main:v>
+  </main:c>
+</xml-fragment>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:08:07 IST" name="tearDown" finished-at="2023-05-12T22:08:08 IST" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:08:08 IST" name="init" finished-at="2023-05-12T22:08:12 IST" duration-ms="4177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_007(org.apache.poi.ss.usermodel.Row)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:08:12 IST" name="TC_TripAdvisor_SignInPage_Negative_007" data-provider="dataProviderForSignIn" finished-at="2023-05-12T22:08:53 IST" duration-ms="41201" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<xml-fragment r="2" spans="1:2" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" s="1" t="s">
+    <main:v>2</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>3</main:v>
+  </main:c>
+</xml-fragment>]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='regErrors']/ul/li' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='regErrors']/ul/li' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.tripadvisor.webapp.base.BasePage.waitForElementToBePresent(BasePage.java:59)
+at com.tripadvisor.webapp.pages.SignInPage.getTheErrorMessageOnInvalidCredetials(SignInPage.java:102)
+at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_007(SignInPageTest.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='regErrors']/ul/li"}
+  (Session info: MicrosoftEdge=113.0.1774.35)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-6JUGJ4I', ip: '192.168.1.52', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aa7767889927af1d05c30dcda8e1333f, findElement {using=xpath, value=//*[@id='regErrors']/ul/li}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:58650}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\Sachin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58650/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa7767889927af1d05c30dcda8e1333f
+at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_08_53_IST_2023_1683909533999.png>TESTRESULT</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:08:54 IST" name="tearDown" finished-at="2023-05-12T22:08:55 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:08:55 IST" name="init" finished-at="2023-05-12T22:08:58 IST" duration-ms="3168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_008()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:08:58 IST" name="TC_TripAdvisor_SignInPage_Negative_008" finished-at="2023-05-12T22:09:10 IST" duration-ms="11776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:09:10 IST" name="tearDown" finished-at="2023-05-12T22:09:11 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:09:11 IST" name="init" finished-at="2023-05-12T22:09:14 IST" duration-ms="3044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_SignInPage_Negative_009()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:09:14 IST" name="TC_TripAdvisor_SignInPage_Negative_009" finished-at="2023-05-12T22:09:25 IST" duration-ms="11437" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Some error in login page expected [Your password should be at least 6 characters long.] but found [Your password must be at least 10 characters. Please try again.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Some error in login page expected [Your password should be at least 6 characters long.] but found [Your password must be at least 10 characters. Please try again.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.tripadvisor.webapp.tests.SignInPageTest.TC_TripAdvisor_SignInPage_Negative_009(SignInPageTest.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=F:\VrushaliTestingData\FinalGitHubProjects\ExtentSparkReportDemo/screenshots/Fri_May_12_22_09_25_IST_2023_1683909565832.png>TESTRESULT</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_SignInPage_Negative_009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.SignInPageTest@28261e8e]" started-at="2023-05-12T22:09:25 IST" name="tearDown" finished-at="2023-05-12T22:09:26 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tripadvisor.webapp.tests.SignInPageTest -->
+      <class name="com.tripadvisor.webapp.tests.HomePageTest">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:05:55 IST" name="init" finished-at="2023-05-12T22:06:01 IST" duration-ms="6560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_HomePage_001()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:01 IST" name="TC_TripAdvisor_HomePage_001" finished-at="2023-05-12T22:06:01 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_HomePage_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:01 IST" name="tearDown" finished-at="2023-05-12T22:06:02 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:02 IST" name="init" finished-at="2023-05-12T22:06:05 IST" duration-ms="2920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_HomePage_002()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:05 IST" name="TC_TripAdvisor_HomePage_002" finished-at="2023-05-12T22:06:05 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_HomePage_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:05 IST" name="tearDown" finished-at="2023-05-12T22:06:06 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:06 IST" name="init" finished-at="2023-05-12T22:06:09 IST" duration-ms="3305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_TripAdvisor_HomePage_003()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:09 IST" name="TC_TripAdvisor_HomePage_003" finished-at="2023-05-12T22:06:09 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TripAdvisor_HomePage_003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tripadvisor.webapp.tests.HomePageTest@7f485fda]" started-at="2023-05-12T22:06:09 IST" name="tearDown" finished-at="2023-05-12T22:06:10 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tripadvisor.webapp.tests.HomePageTest -->
+    </test> <!-- Test edge -->
+  </suite> <!-- Suite -->
+</testng-results>
